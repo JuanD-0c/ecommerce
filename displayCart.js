@@ -1,4 +1,4 @@
-// Función para mostrar los productos en el carrito
+
 function displayCart() {
     const cartItemsContainer = document.getElementById("cart-items");
     const totalPriceElement = document.getElementById("total-price");
