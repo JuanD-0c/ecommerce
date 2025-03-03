@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "main": "displayCart.js",
+  "scripts": {
+    "test": "mocha tests/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanD-0c/ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanD-0c/ecommerce/issues"
+  },
+  "homepage": "https://github.com/JuanD-0c/ecommerce#readme",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  }
+}
