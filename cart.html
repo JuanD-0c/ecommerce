@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - Champions Store</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+    <header>
+        <h1>Champions Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="cart.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Carrito de Compras</h2>
+        <section class="cart">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- Los productos añadidos se mostrarán aquí -->
+                </tbody>
+            </table>
+            <p id="total-price">Total: $0.00</p>
+            <button id="clear-cart">Vaciar Carrito</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Champions Store. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.min.js"></script>
+</body>
+</html>
